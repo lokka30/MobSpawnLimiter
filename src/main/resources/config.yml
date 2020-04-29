@@ -1,0 +1,16 @@
+# Thank you for installing MobSpawnLimiter! I hope you enjoy it. :)
+# I give faster support on my Discord server, here's the link:
+
+#Should the plugin print allowed spawning state to the console?
+# Default: false, Recommended: false
+debug: false
+
+# Out of 10, how many times will the mob spawn?
+# Entity Types should be in UPPERCASE :)
+# Format: ENTITY_TYPE: #
+# Example: SPIDER: 3
+mobs:
+  SPIDER: 3 # Spiders on your server will only spawn 30% of the time.
+  ZOMBIE: 2
+  SKELETON: 2
+  ENDERMAN: 1

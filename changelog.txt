@@ -1,0 +1,10 @@
+1.0.0-ALPHA:
+- Initial Release
+
+1.0.1-ALPHA:
+- Added: Command '/mobspawnlimiter' with alias '/msl'. You can use the argument 'reload' to reload the config now.
+- Improvement: Moved the project from Eclipse to IntelliJ.
+- Improvement: Project is built with Maven.
+- Improvement: Added more config comments to the config in case you needed extra help configuring it.
+- Improvement: Project is open source.
+- Improvement: Created a wiki on GitHub.

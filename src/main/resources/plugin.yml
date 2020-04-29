@@ -1,0 +1,21 @@
+name: MobSpawnListener
+version: ${project.version}
+api-version: '1.13'
+description: ${project.description}
+author: lokka30
+
+commands:
+  mobspawnlimiter:
+    aliases: [msl, mobspawnlim]
+    description: View plugin information or reload the configuration.
+    usage: /<command> [reload]
+
+permissions:
+  mobspawnlimiter.*:
+    default: op
+    description: All permissions
+    children:
+      mobspawnlimiter.reload: true
+  mobspawnlimiter.reload:
+    default: op
+    description: Ability to reload the configuration
