@@ -6,7 +6,7 @@
 
     <groupId>io.github.lokka30</groupId>
     <artifactId>MobSpawnLimiter</artifactId>
-    <version>1.0.1-ALPHA</version>
+    <version>1.0.2-ALPHA</version>
 
     <name>MobSpawnLimiter</name>
     <description>Easily limit the natural spawning of mobs on your server</description>
@@ -81,7 +81,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.15.2-R0.1-SNAPSHOT</version>
+            <version>1.16.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

@@ -16,7 +16,7 @@ public class MobSpawnLimiter extends JavaPlugin {
     private HashMap<EntityType, Boolean> managedMobsMap;
 
     public void onEnable() {
-        getLogger().info("Started loading.");
+        getLogger().info("--- Started Loading ---");
 
         getLogger().info("Saving config (if not available)");
         saveDefaultConfig();
@@ -31,7 +31,7 @@ public class MobSpawnLimiter extends JavaPlugin {
         debug = getConfig().getBoolean("debug");
         managedMobsMap = new HashMap<>();
 
-        getLogger().info("Loading complete.");
+        getLogger().info("--- Loading Complete ---");
     }
 
     public HashMap<EntityType, Boolean> getManagedMobsMap() {
@@ -45,10 +45,6 @@ public class MobSpawnLimiter extends JavaPlugin {
     public boolean chanceOf(int outOf10) {
         int random = new Random().nextInt(10);
         return random > outOf10;
-    }
-
-    public void resetManagedMobsMap() {
-        managedMobsMap.clear();
     }
 
     public String colorize(final String msg) {

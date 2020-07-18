@@ -1,4 +1,5 @@
 name: MobSpawnListener
+main: io.github.lokka30.mobspawnlimiter.MobSpawnLimiter
 version: ${project.version}
 api-version: '1.13'
 description: ${project.description}
